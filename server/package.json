@@ -1,0 +1,22 @@
+{
+	"name": "blog-app-03",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start:dev": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts"
+	},
+	"keywords": [],
+	"author": "Shahmir Khan Jadoon",
+	"license": "ISC",
+	"dependencies": {
+		"apollo-server": "^3.10.2",
+		"graphql": "^16.6.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^4.8.4"
+	}
+}
