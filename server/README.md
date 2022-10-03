@@ -21,11 +21,13 @@ npm run start:dev
 - [Apollo Server] - Apollo Server is a community-maintained open-source GraphQL server.
 - [GraphQL] - The JavaScript reference implementation for GraphQL, a query language for APIs created by Facebook.
 - [Nodemon] - Automatically restarting the node application when file changes.
+- [Prisma] - Prisma is a database ORM that can be used in any Node.js or TypeScript backend application.
 - [TS Node Dev] - It restarts target node process when any of required typescript file changes.
 - [TypeScript] - It is a language for application-scale JavaScript
 
 [apollo server]: https://www.npmjs.com/package/apollo-server
 [graphql]: https://www.npmjs.com/package/graphql
 [nodemon]: https://www.npmjs.com/package/nodemon
+[prisma]: https://www.npmjs.com/package/prisma
 [ts node dev]: https://www.npmjs.com/package/ts-node-dev
 [typescript]: https://www.npmjs.com/package/typescript

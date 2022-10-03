@@ -11,8 +11,10 @@
 	"author": "Shahmir Khan Jadoon",
 	"license": "ISC",
 	"dependencies": {
+		"@prisma/client": "^4.4.0",
 		"apollo-server": "^3.10.2",
-		"graphql": "^16.6.0"
+		"graphql": "^16.6.0",
+		"prisma": "^4.4.0"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.20",
