@@ -2,6 +2,7 @@ import { gql } from 'apollo-server';
 
 export const typeDefs = gql`
 	type Query {
+		me: User
 		posts: [Post!]!
 	}
 
@@ -9,6 +10,11 @@ export const typeDefs = gql`
 		postCreate(data: PostInput!): PostPayload!
 		postUpdate(postId: ID!, data: PostInput!): PostPayload!
 		postDelete(postId: ID!): PostPayload!
+		postPublish(postId: ID!): PostPayload!
+		postUnpublish(postId: ID!): PostPayload!
+
+		signup(data: UserSignupInput!): AuthPayload!
+		signin(data: CredentialsInput!): AuthPayload!
 	}
 
 	type Post {
@@ -43,8 +49,25 @@ export const typeDefs = gql`
 		post: Post
 	}
 
+	type AuthPayload {
+		userErrors: [UserError!]!
+		token: String
+	}
+
 	input PostInput {
 		title: String
 		content: String
+	}
+
+	input UserSignupInput {
+		name: String!
+		email: String!
+		password: String!
+		bio: String!
+	}
+
+	input CredentialsInput {
+		email: String!
+		password: String!
 	}
 `;
