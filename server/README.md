@@ -32,6 +32,7 @@ npm run start:dev
 
 - [Apollo Server] - Apollo Server is a community-maintained open-source GraphQL server.
 - [Bcrypt] - Used for password increption.
+- [DataLoader] - It is a utility used for data fetching to provide a simplified and consistent API over various remote data sources.
 - [GraphQL] - The JavaScript reference implementation for GraphQL, a query language for APIs created by Facebook.
 - [Nodemon] - Automatically restarting the node application when file changes.
 - [Prisma] - Prisma is a database ORM that can be used in any Node.js or TypeScript backend application.
@@ -41,6 +42,7 @@ npm run start:dev
 
 [apollo server]: https://www.npmjs.com/package/apollo-server
 [bcrypt]: https://www.npmjs.com/package/bcryptjs
+[dataloader]: https://www.npmjs.com/package/dataloader
 [graphql]: https://www.npmjs.com/package/graphql
 [nodemon]: https://www.npmjs.com/package/nodemon
 [prisma]: https://www.npmjs.com/package/prisma

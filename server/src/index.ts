@@ -17,7 +17,7 @@ export interface Context {
 	} | null;
 }
 
-const prisma = new PrismaClient();
+export const prisma = new PrismaClient();
 
 const server = new ApolloServer({
 	typeDefs,

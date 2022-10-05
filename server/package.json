@@ -17,6 +17,7 @@
 		"@types/validator": "^13.7.7",
 		"apollo-server": "^3.10.2",
 		"bcryptjs": "^2.4.3",
+		"dataloader": "^2.1.0",
 		"graphql": "^16.6.0",
 		"jsonwebtoken": "^8.5.1",
 		"prisma": "^4.4.0",
